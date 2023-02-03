@@ -50,6 +50,9 @@ const Hero = () => {
             lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
             fugiat aliqua.
           </p>
+          <div className="flex col-span-1 md:hidden md:justify-end">
+            <img className="w-10/12" src="images/hero1.svg" />
+          </div>
           <div className=" mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
               <a

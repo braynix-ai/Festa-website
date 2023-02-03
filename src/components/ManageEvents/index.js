@@ -3,7 +3,10 @@ import SectionHeading from "../SectionHeading";
 
 const ManageEvents = () => {
   return (
-    <div id="manage" className="relative mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 lg:px-8">
+    <div
+      id="manage"
+      className="relative mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 lg:px-8"
+    >
       <div class=" absolute inset-x-0 top-[-64px] -z-0 transform-gpu overflow-hidden blur-3xl sm:top-[200px]">
         <svg
           class="relative left-[calc(50%-11rem)] -z-0 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[70deg] sm:right-[calc(10%-10rem)] sm:h-[42.375rem]"
@@ -47,7 +50,7 @@ const ManageEvents = () => {
         <div className="flex justify-center md:space-x-3">
           <img className="h-auto w-full" src={"/images/m0.png"} />
         </div>
-        <div className="flex justify-center md:space-x-3">
+        <div className="hidden md:flex justify-center md:space-x-3">
           <img className="h-auto w-full" src={"/images/m1.png"} />
         </div>
         <div className="mt-6 flex flex-col justify-center">
@@ -60,6 +63,9 @@ const ManageEvents = () => {
             qui proident quis aliqua. Magna ut Lorem occaecat esse duis officia
             commodo ipsum aute officia.
           </div>
+        </div>
+        <div className="flex md:hidden justify-center md:space-x-3">
+          <img className="h-auto w-full" src={"/images/m1.png"} />
         </div>
         <div className="mt-6 flex flex-col justify-center">
           <div className="text-2xl font-bold tracking-wide">
