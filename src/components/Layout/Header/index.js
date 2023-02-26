@@ -21,7 +21,8 @@ export default function Header() {
   }, []);
 
   const navigations = [
-    { href: "/", name: "About Us" },
+    { href: "/", name: "Home" },
+    { href: "/about", name: "About Us" },
     { href: "#vendors", name: "Vendors" },
     { href: "#manage", name: "Manage Events" },
     { href: "#contact", name: "Contact Us" },
@@ -33,7 +34,7 @@ export default function Header() {
       {({ open }) => (
         <>
           <div className="z-50 max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between h-16">
+            <div className="flex justify-between h-20">
               <div className="flex">
                 <div className="-ml-2 mr-2 flex items-center md:hidden">
                   {/* Mobile menu button */}
@@ -47,7 +48,8 @@ export default function Header() {
                   </Disclosure.Button>
                 </div>
                 <div className=" flex items-center space-x-3">
-                  <div className="h-10 w-60 border border-gray-400"></div>
+                  {/* <div className="h-10 w-60 border border-gray-400"></div> */}
+                  <img src={"/images/logoFinal.png"} className="h-16" />
                 </div>
               </div>
               <div className="hidden md:ml-6 md:flex md:space-x-5">
