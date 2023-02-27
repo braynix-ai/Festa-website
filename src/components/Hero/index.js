@@ -2,17 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex-1 flex relative items-center bg-opacity-20 bg-white w-full mt-16 lg:mt-0">
-      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 ">
-        <div className="col-span-1 flex justify-center flex-col space-y-5">
-          <div className="text-5xl font-bold text-white">Book your</div>
-          <div className="text-9xl font-bold text-white">Event</div>
-          <div className="text-5xl font-bold text-white">with us</div>
-        </div>
-        <div className="col-span-1">
-          <img src="images/hero.svg" />
-        </div>
-      </div> */}
+    <div className="flex-1 flex relative items-center bg-opacity-20 bg-white w-full lg:mt-0">
       <div class="absolute inset-x-0 top-[-64px] -z-0 transform-gpu overflow-hidden blur-3xl sm:top-[-64px]">
         <svg
           class="relative left-[calc(50%-11rem)] -z-0 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -39,16 +29,19 @@ const Hero = () => {
           </defs>
         </svg>
       </div>
-      <main className="z-20 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
+      <main className="z-20 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
         <div className="sm:text-center flex flex-col justify-center lg:text-left">
-          <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-            <span className="block xl:inline">Book your Event</span>{" "}
-            <span className="block text-white xl:inline">with Festa</span>
+          <h1 className="text-4xl tracking-tight font-semibold text-white sm:text-5xl ">
+            <span className="block xl:block">Welcome to Festa,</span>{" "}
+            <span className="block text-white xl:inline">
+              the ultimate event management platform!
+            </span>
           </h1>
           <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            Tired of the hassle and stress that comes with event planning? Look
+            no further than Festa, the ultimate event planning solution. Our
+            platform is designed to provide a seamless and stress-free
+            experience for both hosts and guests.
           </p>
           <div className="flex col-span-1 md:hidden md:justify-end">
             <img className="w-10/12" src="images/hero1.svg" />
@@ -56,7 +49,7 @@ const Hero = () => {
           <div className=" mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
               <a
-                href="#"
+                href="/about"
                 className="w-full flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-white bg-[#0A061D] shadow-2xl hover:bg-gray-500 md:py-2 md:text-lg md:px-10"
               >
                 About Us

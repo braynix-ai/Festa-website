@@ -49,7 +49,7 @@ const people = [
 
 const index = () => {
   return (
-    <div className="mt-16 w-full">
+    <div className="w-full">
       <div className="w-full bg-gray-900">
         <div className="mx-auto px-4 text-center sm:px-6 lg:px-8 lg:max-w-7xl">
           <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
