@@ -33,7 +33,10 @@ export default function Header() {
 
   return (
     <>
-      <Disclosure as="nav" className="fixed w-[calc(100vw-17px)] z-50 bg-[#0A061D] shadow ">
+      <Disclosure
+        as="nav"
+        className="fixed w-[calc(100vw-17px)] z-50 bg-[#0A061D] shadow "
+      >
         {({ open }) => (
           <>
             <div className="z-50 max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,12 +79,15 @@ export default function Header() {
                   <button
                     type="button"
                     onClick={() => {
-                      setLoginOpen(true);
-                      console.log('shshs')
+                      // setLoginOpen(true);
+                      router.push(
+                        "https:///festa-dashboard-client.vercel.app/"
+                      );
+                      console.log("shshs");
                     }}
-                    className="relative inline-flex items-center px-8 h-max my-auto py-1 border border-transparent text-sm font-medium text-white border-white shadow-sm  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="relative hover:bg-gray-50 hover:bg-opacity-20 inline-flex items-center px-8 h-max my-auto py-1 border border-transparent text-sm font-medium text-white border-white shadow-sm  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   >
-                    <span>Sign In </span>
+                    <span>Sign In / Register</span>
                   </button>
                 </div>
               </div>
@@ -100,7 +106,9 @@ export default function Header() {
                 ))}
                 <button
                   type="button"
-                  onClick={() => setLoginOpen(true)}
+                  onClick={() =>
+                    router.push("https:///festa-dashboard-client.vercel.app/")
+                  }
                   className="relative inline-flex items-center px-8 h-max my-auto py-1 border border-transparent text-sm font-medium text-white border-white shadow-sm  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   <span>Sign In </span>
