@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex-1 flex relative items-center bg-opacity-20 bg-white w-full lg:mt-0">
+    <div className="flex-1 flex relative items-center  w-full lg:mt-0">
       <div class="absolute inset-x-0 top-[-64px] -z-0 transform-gpu overflow-hidden blur-3xl sm:top-[-64px]">
         <svg
           class="relative left-[calc(50%-11rem)] -z-0 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -55,14 +55,6 @@ const Hero = () => {
                 About Us
               </a>
             </div>
-            {/* <div className=" mt-3 sm:mt-0 sm:ml-3">
-              <a
-                href="#"
-                className="w-full flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-[#0A061D] bg-indigo-100 hover:bg-indigo-200 md:py-2 md:text-lg md:px-10"
-              >
-                Live demo
-              </a>
-            </div> */}
           </div>
         </div>
         <div className="hidden col-span-1 md:flex md:justify-end">

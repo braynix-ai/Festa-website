@@ -48,10 +48,10 @@ const ManageEvents = () => {
           </div>
         </div>
         <div className="flex justify-center md:space-x-3">
-          <img className="h-auto w-full" src={"/images/m0.png"} />
+          <img className="h-full w-auto" src={"/images/m0.png"} />
         </div>
         <div className="hidden md:flex justify-center md:space-x-3">
-          <img className="h-auto w-full" src={"/images/m1.png"} />
+          <img className="h-full w-auto" src={"/images/m1.png"} />
         </div>
         <div className="mt-6 flex flex-col justify-center">
           <div className="text-2xl font-bold tracking-wide">
@@ -65,7 +65,7 @@ const ManageEvents = () => {
           </div>
         </div>
         <div className="flex md:hidden justify-center md:space-x-3">
-          <img className="h-auto w-full" src={"/images/m1.png"} />
+          <img className="h-full w-auto" src={"/images/m1.png"} />
         </div>
         <div className="mt-6 flex flex-col justify-center">
           <div className="text-2xl font-bold tracking-wide">
@@ -79,7 +79,7 @@ const ManageEvents = () => {
           </div>
         </div>
         <div className="flex justify-center md:space-x-3">
-          <img className="h-auto w-full" src={"/images/m3.png"} />
+          <img className="h-full w-auto" src={"/images/m3.png"} />
         </div>
       </div>
     </div>

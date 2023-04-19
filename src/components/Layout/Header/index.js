@@ -25,10 +25,10 @@ export default function Header() {
   const navigations = [
     { href: "/", name: "Home" },
     { href: "/about", name: "About Us" },
-    { href: "#vendors", name: "Vendors" },
-    { href: "#manage", name: "Manage Events" },
-    { href: "#contact", name: "Contact Us" },
-    { href: "#testimonials", name: "Testimonials" },
+    { href: "/#vendors", name: "Vendors" },
+    { href: "/#manage", name: "Manage Events" },
+    { href: "/#contact", name: "Contact Us" },
+    { href: "/#testimonials", name: "Testimonials" },
   ];
 
   return (
@@ -80,9 +80,7 @@ export default function Header() {
                     type="button"
                     onClick={() => {
                       // setLoginOpen(true);
-                      router.push(
-                        "https:///festa-dashboard-client.vercel.app/"
-                      );
+                      router.push("https:///user.festabash.com/");
                       console.log("shshs");
                     }}
                     className="relative hover:bg-gray-50 hover:bg-opacity-20 inline-flex items-center px-8 h-max my-auto py-1 border border-transparent text-sm font-medium text-white border-white shadow-sm  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
