@@ -104,9 +104,7 @@ export default function Header() {
                 ))}
                 <button
                   type="button"
-                  onClick={() =>
-                    router.push("https:///festa-dashboard-client.vercel.app/")
-                  }
+                  onClick={() => router.push("https:///user.festabash.com/")}
                   className="relative inline-flex items-center px-8 h-max my-auto py-1 border border-transparent text-sm font-medium text-white border-white shadow-sm  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   <span>Sign In </span>

@@ -7,6 +7,7 @@ const navigation = {
       href: "https:///user.festabash.com/",
     },
     { name: "Testimonials", href: "/#testimonials" },
+    { name: "Blog", href: "http:///blog.festabash.com" },
   ],
   support: [
     { name: "How we help you", href: "#" },
@@ -15,18 +16,22 @@ const navigation = {
       name: "Login to your account",
       href: "https:///partner.festabash.com",
     },
-    { name: "Apps", href: "/#apps" },
+    { name: "Apps", href: "https:///onelink.to/sqtngq" },
   ],
   company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "FAQs", href: "#" },
+    { name: "Support", href: "https:///user.festabash.com/" },
+    { name: "Provide feedback", href: "https:///user.festabash.com/" },
   ],
   legal: [
-    { name: "Privacy", href: "https:///user.festabash.com/privacy-policy" },
-    { name: "Terms", href: "https:///user.festabash.com/terms-conditions" },
+    {
+      name: "Privacy Policy",
+      href: "https:///user.festabash.com/privacy-policy",
+    },
+    {
+      name: "Terms and Conditions",
+      href: "https:///user.festabash.com/terms-conditions",
+    },
   ],
   social: [
     {
@@ -67,6 +72,19 @@ const navigation = {
   ],
 };
 
+const handleCareersClick = () => {
+  const email = "admin@festabash.com";
+  const subject = "careers";
+  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+  window.location.href = mailtoLink;
+};
+const handleClick = () => {
+  const email = "admin@festabash.com";
+  const subject = "Advertisement";
+  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+  window.location.href = mailtoLink;
+};
+
 export default function Footer() {
   return (
     <footer
@@ -105,7 +123,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
-                  Product
+                  Product / Who we are
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.solutions.map((item) => (
@@ -138,10 +156,10 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="md:grid md:grid-cols-1 md:gap-8">
-              {/* <div>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div>
                 <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
-                  Company
+                  Need help
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.company.map((item) => (
@@ -155,22 +173,46 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div> */}
+              </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
                   Learn More
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
+                  <li>
+                    <a
+                      href={""}
+                      onClick={handleCareersClick}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
+                      Careers
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={"https:///user.festabash.com/privacy-policy"}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
+                      Privacy Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={"https:///user.festabash.com/terms-conditions"}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
+                      Terms and conditions
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={""}
+                      onClick={handleClick}
+                      className="text-base text-gray-500 hover:text-gray-900"
+                    >
+                      Advertisement with us
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
