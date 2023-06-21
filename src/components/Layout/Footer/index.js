@@ -19,7 +19,7 @@ const navigation = {
     { name: "Apps", href: "https:///onelink.to/sqtngq" },
   ],
   company: [
-    { name: "FAQs", href: "#" },
+    { name: "FAQs", href: "/faqs" },
     { name: "Support", href: "https:///user.festabash.com/" },
     { name: "Provide feedback", href: "https:///user.festabash.com/" },
   ],
@@ -99,7 +99,7 @@ export default function Footer() {
           <div className="space-y-8 xl:col-span-1">
             <img
               className="h-20"
-              src="/images/logoFinal.png"
+              src="/images/festaaaa 1.svg"
               alt="Company name"
             />
             <p className="text-gray-500 text-base">
@@ -130,7 +130,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-500 hover:text-gray-50"
                       >
                         {item.name}
                       </a>
@@ -147,7 +147,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-500 hover:text-gray-50"
                       >
                         {item.name}
                       </a>
@@ -166,7 +166,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-500 hover:text-gray-50"
                       >
                         {item.name}
                       </a>
@@ -183,7 +183,7 @@ export default function Footer() {
                     <a
                       href={""}
                       onClick={handleCareersClick}
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-500 hover:text-gray-50"
                     >
                       Careers
                     </a>
@@ -191,7 +191,7 @@ export default function Footer() {
                   <li>
                     <a
                       href={"https:///user.festabash.com/privacy-policy"}
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-500 hover:text-gray-50"
                     >
                       Privacy Policy
                     </a>
@@ -199,7 +199,7 @@ export default function Footer() {
                   <li>
                     <a
                       href={"https:///user.festabash.com/terms-conditions"}
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-500 hover:text-gray-50"
                     >
                       Terms and conditions
                     </a>
@@ -208,7 +208,7 @@ export default function Footer() {
                     <a
                       href={""}
                       onClick={handleClick}
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-500 hover:text-gray-50"
                     >
                       Advertisement with us
                     </a>
@@ -220,7 +220,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-base text-gray-200 xl:text-center">
-            &copy; 2020 Workflow, Inc. All rights reserved.
+            &copy; 2023 festabash.com, All rights reserved.
           </p>
         </div>
       </div>

@@ -3,7 +3,10 @@ import SectionHeading from "../SectionHeading";
 
 const Testimonials = () => {
   return (
-    <div id="testimonials" className="relative my-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+    <div
+      id="testimonials"
+      className="relative my-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 "
+    >
       <div class="absolute inset-x-0 top-[-64px] -z-0 transform-gpu overflow-hidden blur-3xl sm:top-[-100px]">
         <svg
           class="relative left-[calc(50%-11rem)] -z-0 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[40deg] sm:right-[calc(10%-10rem)] sm:h-[42.375rem]"
@@ -31,23 +34,21 @@ const Testimonials = () => {
         </svg>
       </div>
       <SectionHeading heading="Testimonials" />
-      <div className="z-40 text-gray-300 md:w-3/5 text-center mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
-        tempor incididunt ut l abore et dolore magna aliqua. Ut enim ad minim v
-        eniam.
+      <div className="z-50 text-gray-300 md:w-3/5 text-center mx-auto">
+        From the users and vendors of Festabash describing their experiences of
+        using the app.
       </div>
 
-      <div className="grid gris-cols-1 md:grid-cols-2 gap-3 mt-10">
-        <div className="z-40 text-gray-300 flex items-center mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
-          eiusmod tempor incididunt ut l abore et dolore magna aliqua. Ut enim
-          ad minim v eniam, quis nostrud exercitation uecat Lorem ipsum dolor
-          sit amet, consectetur adipis cing elit, sed do eiusmod tempor
-          incididunt ut l abore et dolore magna aliqua. Ut enim ad minim v
-          eniam, quis nostrud exercitation uecat{" "}
+      <div className="z-50 grid gris-cols-1 md:grid-cols-2 gap-3 mt-10">
+        <div className="z-50 text-gray-300 flex items-center mx-auto">
+          Our users from India who have been testing the application and used
+          the app for their events and family functions were delighted with the
+          experience. Our vendor partners were happy to see a platform
+          integrating essential features for their business providing them with
+          an opportunity.
         </div>
         <div>
-          <img src={"/images/Testi1.png"} />
+          <img className="z-50" src={"/images/Group 11127.png"} />
         </div>
       </div>
     </div>

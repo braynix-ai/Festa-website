@@ -58,7 +58,7 @@ export default function Header() {
                   </div>
                   <div className=" flex items-center space-x-3">
                     {/* <div className="h-10 w-60 border border-gray-400"></div> */}
-                    <img src={"/images/logoFinal.png"} className="h-16" />
+                    <img src={"/images/festaaaa 1.svg"} className="h-16" />
                   </div>
                 </div>
                 <div className="hidden md:ml-6 md:flex md:space-x-5">

@@ -32,11 +32,16 @@ const Hero = () => {
       <main className="z-20 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2">
         <div className="sm:text-center flex flex-col justify-center lg:text-left">
           <h1 className="text-4xl tracking-tight font-semibold text-white sm:text-5xl ">
-            <span className="block xl:block">Welcome to Festa,</span>{" "}
-            <span className="block text-white xl:inline">
-              the ultimate event management platform!
+            {/* <span className="block xl:block">Welcome to Festa,</span>{" "} */}
+            <span className="block text-white xl:inline leading-snug">
+              Create memories that last a lifetime with FESTABASH
             </span>
           </h1>
+          {/* <h1 className="text-3xl tracking-tight font-semibold text-white sm:text-3xl mt-3">
+            <span className="block text-white xl:inline">
+              Our one stop solution for event planning and hosting
+            </span>
+          </h1> */}
           <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             Tired of the hassle and stress that comes with event planning? Look
             no further than Festa, the ultimate event planning solution. Our

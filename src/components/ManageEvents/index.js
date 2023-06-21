@@ -7,7 +7,7 @@ const ManageEvents = () => {
       id="manage"
       className="relative mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 lg:px-8"
     >
-      <div class=" absolute inset-x-0 top-[-64px] -z-0 transform-gpu overflow-hidden blur-3xl sm:top-[200px]">
+      <div class=" absolute inset-x-0 top-[-64px] z-0 transform-gpu overflow-hidden blur-3xl sm:top-[200px]">
         <svg
           class="relative left-[calc(50%-11rem)] -z-0 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[70deg] sm:right-[calc(10%-10rem)] sm:h-[42.375rem]"
           viewBox="0 0 1155 678"
@@ -37,48 +37,43 @@ const ManageEvents = () => {
       <div className="text-gray-300 text-center text-lg">
         Create, Update and Manage events all on a signle platform.
       </div>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-3  text-white">
-        <div className="mt-6 flex flex-col justify-center">
-          <div className="text-2xl font-bold tracking-wide">Create Event</div>
+      <div className="z-50 mt-10 grid grid-cols-1 md:grid-cols-2 gap-3  text-white">
+        <div className=" flex flex-col justify-center">
+          <div className="text-2xl font-bold tracking-wide">
+            Amplify Event Engagement
+          </div>
           <div className="mt-2 md:w-4/5">
-            Tempor cupidatat velit amet duis culpa aliquip pariatur veniam.
-            Nulla cupidatat incididunt laboris ullamco tempor proident cillum
-            qui proident quis aliqua. Magna ut Lorem occaecat esse duis officia
-            commodo ipsum aute officia.
+            Connect, Share, and Interact with Attendees through Social Media
+            feed
           </div>
         </div>
-        <div className="flex justify-center md:space-x-3">
+        <div className="h-72 flex justify-center md:space-x-3">
           <img className="h-full w-auto" src={"/images/m0.png"} />
         </div>
-        <div className="hidden md:flex justify-center md:space-x-3">
+        <div className="z-50 h-72 hidden md:flex justify-center md:space-x-3">
           <img className="h-full w-auto" src={"/images/m1.png"} />
         </div>
-        <div className="mt-6 flex flex-col justify-center">
+        <div className=" flex flex-col justify-center">
           <div className="text-2xl font-bold tracking-wide">
-            Onboard your Co-host, guests and vendors
+            Preserve Precious Moments
           </div>
           <div className="mt-2 md:w-4/5">
-            Tempor cupidatat velit amet duis culpa aliquip pariatur veniam.
-            Nulla cupidatat incididunt laboris ullamco tempor proident cillum
-            qui proident quis aliqua. Magna ut Lorem occaecat esse duis officia
-            commodo ipsum aute officia.
+            Effortlessly Capture and Share Event Memories with Integrated Photo
+            Sharing
           </div>
         </div>
-        <div className="flex md:hidden justify-center md:space-x-3">
-          <img className="h-full w-auto" src={"/images/m1.png"} />
+        <div className="z-50 h-72 flex md:hidden justify-center md:space-x-3">
+          <img className="h-full w-auto z-50" src={"/images/m1.png"} />
         </div>
-        <div className="mt-6 flex flex-col justify-center">
+        <div className=" flex flex-col justify-center">
           <div className="text-2xl font-bold tracking-wide">
-            Manage your media
+            Streamline Event Organization
           </div>
           <div className="mt-2 md:w-4/5">
-            Tempor cupidatat velit amet duis culpa aliquip pariatur veniam.
-            Nulla cupidatat incididunt laboris ullamco tempor proident cillum
-            qui proident quis aliqua. Magna ut Lorem occaecat esse duis officia
-            commodo ipsum aute officia.
+            Coordinate Budgets and Guest Lists with Ease
           </div>
         </div>
-        <div className="flex justify-center md:space-x-3">
+        <div className="h-72 flex justify-center md:space-x-3">
           <img className="h-full w-auto" src={"/images/m3.png"} />
         </div>
       </div>

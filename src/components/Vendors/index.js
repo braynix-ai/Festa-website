@@ -7,8 +7,8 @@ export default function Vendors() {
         <div className="">
           <SectionHeading heading="Choose your vendors" />
           <div className="text-gray-300 text-center text-lg">
-            Select vendors of your choice and view the wide range of options to
-            hire them.
+            Discover the perfect event partners: Seamlessly connect with vendors
+            that align with your vision.
           </div>
         </div>
 
@@ -31,11 +31,6 @@ export default function Vendors() {
                     Birthday
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
-                  Laborum voluptate sit commodo dolore dolor nisi magna elit
-                  officia incididunt adipisicing cillum eu eiusmod.Irure amet
-                  cillum consequat sint.
-                </p>
               </div>
             </div>
           </div>
@@ -57,11 +52,6 @@ export default function Vendors() {
                     photography / Wedding
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
-                  Laborum voluptate sit commodo dolore dolor nisi magna elit
-                  officia incididunt adipisicing cillum eu eiusmod.Irure amet
-                  cillum consequat sint.
-                </p>
               </div>
             </div>
           </div>
@@ -83,11 +73,6 @@ export default function Vendors() {
                     Dj night
                   </a>
                 </h3>
-                <p aria-hidden="true" className="mt-1 text-sm text-white">
-                  Laborum voluptate sit commodo dolore dolor nisi magna elit
-                  officia incididunt adipisicing cillum eu eiusmod.Irure amet
-                  cillum consequat sint.
-                </p>
               </div>
             </div>
           </div>

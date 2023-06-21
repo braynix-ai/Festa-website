@@ -40,7 +40,7 @@ const Contact = () => {
             </h2>
             <div className="mt-3">
               <p className="text-lg text-gray-300">
-                For support related queries write to: support@xyz.com
+                For support related queries reach out to us at :
               </p>
             </div>
             <div className="mt-9">
@@ -52,8 +52,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="ml-3 text-base text-gray-300">
-                  <p>1234567890</p>
-                  <p className="mt-1">Mon-Fri 8am to 6pm ISt</p>
+                  <p>9380344454</p>
                 </div>
               </div>
               <div className="mt-6 flex">
@@ -69,17 +68,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="mt-12 sm:mt-16 md:mt-0">
-            <h2 className="text-xl font-bold text-white sm:text-2xl">
-              Office Address
-            </h2>
-            <div className="mt-3">
-              <p className="text-lg text-gray-300">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                repellat error corporis doloribus similique, voluptatibus
-                numquam quam, quae officiis facilis.
-              </p>
-            </div>
+          <div className="mt-12 sm:mt-16 md:mt-12">
+            <h2 className="text-lg text-gray-300">Office Address</h2>
+
             {/* <div className="w-full h-56 my-3 bg-gray-400"></div> */}
             <div className="mt-9">
               <div className="flex">
